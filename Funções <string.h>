@@ -1,0 +1,18 @@
+Funções da <string.h>
+
+
+gets(str): lê uma string do teclado e armazena em
+str.//não recebe suporte, instavel , não recomendo usar
+
+setbuf(stdin, NULL): limpa o buffer do teclado
+
+strlen(var): retorna o tamanho da string (não considera o \0)
+
+strcpy(destino,fonte): copia uma string para outra
+
+strcat(principal, apendice): concatena 2 strings, a primeira terá adicionada a segunda em seu final (cuidado com o tamanho da sua string principal)
+
+
+strcmp(str1, str2): compara duas strings, retorna '0' se forem iguais
+
+scanf("[^\n]", str): le uma string inteira incluindo os espaços
